@@ -1,0 +1,23 @@
+{
+  "name": "swagger-ui-alone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robzsk/swagger-ui-alone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robzsk/swagger-ui-alone/issues"
+  },
+  "homepage": "https://github.com/robzsk/swagger-ui-alone#readme",
+  "dependencies": {
+    "dot": "^1.1.2",
+    "swagger-ui-dist": "^3.4.5"
+  }
+}
