@@ -20,6 +20,6 @@ const docs = alone(spec);
 // now I can write the docs to a file
 require('fs').writeFileSync('index.html', docs);
 
-// or I http serve the docs up
+// or I can http serve the docs
 require('http').createServer((request, response) => { response.end(docs); }).listen(8080);
 ```
