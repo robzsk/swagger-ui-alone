@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const swaggerUiAssetPath = require("swagger-ui-dist").getAbsoluteFSPath();
+const swaggerUiAssetPath = require('swagger-ui-dist').getAbsoluteFSPath();
 const dot = require('dot');
 
 const load = f => fs.readFileSync(f).toString();
